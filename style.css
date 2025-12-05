@@ -1,0 +1,102 @@
+.Aplikasi {
+    background-color:rgb(178, 9, 9);
+    color:black;
+    text-align:center;
+    padding:80px;
+    font-size:40px;
+}
+
+nav {
+    background-color:rgb(162, 206, 86);
+    padding:8px;
+}
+
+nav li {
+    list-style:none;
+    display:inline;
+    margin-right:60px;
+    margin-left:60px;
+}
+
+nav a {
+    font-size:18px;
+    color:rgb(186, 102, 102);
+    font-weight:400px;
+    text-decoration:none;
+}
+
+nav a :hover {
+    font-weight:bold;
+    color: blue;
+
+}
+
+body {
+    font-family:Tahoma;
+    padding:0;
+    margin:0;
+    background-image: url("./image/WWW.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:200px ;
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+    background-color:white;
+}
+
+h2 {
+    color:rgb(24, 178, 91);
+}
+
+.card{
+    padding:20px;
+    margin-top:20px;
+    box-shadow:0 4px 8px black;
+    border-radius: 5px;
+}
+
+main {
+    padding:20px;
+    overflow:auto;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:flex-start;
+}
+
+#Content {
+    width:70%;
+    order:2;
+}
+
+.image {
+    width:100%;
+    object-position:center;
+    object-fit: cover;
+    max-height:300px;
+}
+
+aside{
+    width:30%;
+    order:1;
+    padding-left:20px;
+}
+
+.sosialmedia {
+    text-align: center;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+footer{
+    color: black;
+    padding: 20px;
+    background-color: rgb(13, 23, 160);
+    text-align: center;
+    font-weight: bold;
+    margin-top:auto;
+    width:100%;
+}
